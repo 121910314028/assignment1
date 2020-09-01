@@ -1,0 +1,19 @@
+print("enter a number:")
+a = int(input())
+b = a
+sum = 0
+add = 0
+while(a>0):
+     x = a%10
+     add = add + x ** 3
+     sum = int(sum + x)
+     a = int(a/10)
+print("sum of the digits "+str(b)+"is" ,sum
+if b == add:
+   print(str(b)+" is an armstrong number")
+else :
+    print(str(b) + "is not an armstrong number")
+    
+output-enter a number 371
+       sum of the digits 371 is 11
+       371 is an armstrong number
