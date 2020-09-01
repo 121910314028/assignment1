@@ -1,0 +1,18 @@
+a=4
+b=2
+sum=a+b
+print("sum is"sum)
+sub=a-b
+print("sub is"sub)
+mul=a*b
+print("mul is"mul)
+div=a/b
+print("div is"div)
+rem=a%b
+print("rem is"rem)
+
+output-sum is 6
+       sub is 2
+       mul is 8
+       div is 2
+       rem is 0
