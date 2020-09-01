@@ -1,0 +1,26 @@
+def prime(n):
+    f=0
+    for i in range(2,n//2+1):
+        if n%i==0:
+            f=1
+            break
+     return f
+num= int(input("enter starting"))
+num2=int(input("enter ending number"))
+print("twin prime numbers are")
+for i in range(num,num2+1):
+    if prime(i)==0 and prime(i+2)==0:
+       print(i," ",i+2)
+       
+output-enter starting 1
+       enter ending number100
+       twin prime numbers are
+       1 3
+       3 5
+       5 7
+       11 13
+       17 19
+       29 31
+       41 43
+       59 61
+       71 73
