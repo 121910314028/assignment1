@@ -65,3 +65,36 @@ for i in range(len(sparseMatrix)):
     for j in range(len(sparseMatrix[0])):
         result[i][j] = sparseMatrix[i][j] * sparseMatrix2[i][j]
 print(result)
+
+output-normal matrix1
+1 0 0 0 
+0 2 0 0 
+0 29 3 0 
+0 0 4 4 
+5 0 0 0 
+normal matrix2
+2 0 0 0 
+0 5 0 0 
+0 2 3 0 
+0 0 4 4 
+5 0 0 0 
+
+Sparse Matrix1: 
+0 0 1 
+1 1 2 
+2 1 29 
+2 2 3 
+3 2 4 
+3 3 4 
+4 0 5 
+
+Sparse Matrix2: 
+0 0 1 
+1 1 2 
+2 1 29 
+2 2 3 
+3 2 4 
+3 3 4 
+4 0 5 
+Product of sparse matrix
+[[0, 0, 1], [1, 1, 4], [4, 1, 841], [4, 4, 9], [9, 4, 16], [9, 9, 16], [16, 0, 25]]
